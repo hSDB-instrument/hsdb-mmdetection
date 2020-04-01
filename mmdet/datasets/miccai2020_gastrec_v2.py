@@ -1,0 +1,38 @@
+from .coco import CocoDataset
+from .registry import DATASETS
+
+@DATASETS.register_module
+class hSDBGastricDataset(CocoDataset):
+    CLASSES = ('HarmonicAce_Head',
+               'HarmonicAce_Body',
+               'MarylandBipolarForceps_Head',
+               'MarylandBipolarForceps_Wrist',
+               'MarylandBipolarForceps_Body',
+               'CadiereForceps_Head',
+               'CadiereForceps_Wrist',
+               'CadiereForceps_Body',
+               'CurvedAtraumaticGrasper_Head',
+               'CurvedAtraumaticGrasper_Body',
+               'Stapler_Head',
+               'Stapler_Body',
+               'Medium-LargeClipApplier_Head',
+               'Medium-LargeClipApplier_Wrist',
+               'Medium-LargeClipApplier_Body',
+               'SmallClipApplier_Head',
+               'SmallClipApplier_Wrist',
+               'SmallClipApplier_Body',
+               'Suction-Irrigation',
+               'Needle',
+               'Needle-holder_Head',
+               'Needle-holder_Body',
+               'Baxter',
+               'Specimanbag',
+               'Tube',
+               'CovidienUltrasonic_Head',
+               'CovidienUltrasonic_Body',
+               'Scissors_Head',
+               'Scissors_Body',
+               'AtraumaticGrasper_Head',
+               'AtraumaticGrasper_Body',
+               'Overholt_Head',
+               'Overholt_Body')
