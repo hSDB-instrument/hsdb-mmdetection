@@ -9,9 +9,9 @@ from .voc import VOCDataset
 from .wider_face import WIDERFaceDataset
 from .xml_style import XMLDataset
 
-from miccai2020_cholec_v2 import hSDBCholeDataset
-from miccai2020_gastrec_v2 import hSDBGastricDataset
-from revoi_gastrec_v1 import hSDBRevoiGastrecDatasetV1
+from .miccai2020_cholec_v2 import hSDBCholeDataset
+from .miccai2020_gastrec_v2 import hSDBGastricDataset
+from .revoi_gastrec_v1 import hSDBRevoiGastrecDatasetV1
 
 __all__ = [
     'CustomDataset', 'XMLDataset', 'CocoDataset', 'VOCDataset',

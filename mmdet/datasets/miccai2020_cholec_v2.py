@@ -19,4 +19,4 @@ class hSDBCholeDataset(CocoDataset):
                'Ligasure_Body',
                'ClipApplier(Hem-O-Lok)_Head',
                'ClipApplier(Hem-O-Lok)_Body',
-               'Specimanbag')a
+               'Specimanbag')
